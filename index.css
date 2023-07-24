@@ -1,0 +1,289 @@
+.background{
+    border-radius: 5px;
+    background-image: linear-gradient(black, orange);
+    padding: 5% 10% 70% 10%;
+    background-size: 100% auto;
+}
+
+.alles{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 1,5em;
+}
+
+.info{
+    border-color: white;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 1em 1em 1em 1em;
+    margin-top: 3em;
+}
+
+.info tr{
+    display: flex;
+    flex-direction: column;
+}
+
+.info th{
+    font-size: larger;
+}
+
+.info td{
+    margin-top: 1em;
+}
+
+.menü{
+    margin-bottom: 3em;
+}
+.menü ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style:none;
+}
+
+.menü nav a:hover,
+.menü nav a.active{
+    background: orange;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.menü a{
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.h1{
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.h2{
+    font-size: 1,5em;
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.lokation{
+    margin-bottom: 2em;
+}
+
+.lokation nav a:hover,
+.lokation nav a.active{
+    background: orange;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.lokation a{
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+
+.lokation nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.karte{
+    display: flex;
+    justify-content: center;
+}
+
+.aktuell{
+    margin-bottom: 3em;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.aktuell tr{
+    display: flex;
+    flex-direction: column;
+}
+
+.getränke{
+    margin-bottom: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+.getränke tr{
+    display: flex;
+    flex-direction: column;
+}
+
+.komplett{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.komplett nav a:hover,
+.komplett nav a.active{
+    background: orange;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.komplett a{
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+
+.komplettekarte{
+    display: flex;
+    flex-direction: column;
+}
+
+.komplettekarte li{
+        list-style: none;
+}
+
+.formular{
+    max-width: 80%;
+} 
+
+.formular fieldset{
+    border-color: white;
+    border-radius: 3px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3em;
+}
+
+.formular label{
+    display: flex;
+    flex-direction: column;
+}
+
+.abstimmung{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
+}
+
+.abstimmung summary::-webkit-details-marker,
+.abstimmung summary::marker{
+    content: icon;
+    color: black;
+    transition: all 0,5s;
+}
+
+.abstimmung details[open] summary::-webkit-details-marker,
+.abstimmung details[open] summary::marker{
+    content: icon;
+    color:black;
+}
+
+.abstimmung li{
+    list-style: none;
+}
+
+.abstimmung a{
+    font-size: larger;
+}
+
+.team{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.teamtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.teamtext li{
+    list-style: none;
+}
+
+.impressum nav a:hover,
+.impressum nav a.active{
+    background: orange;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.impressum a{
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+
+.kontakt{
+    margin-left: 3em;
+}
+
+.kontakt nav a:hover,
+.kontakt nav a.active{
+    background: orange;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.kontakt a{
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+
+
+.unten{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 3em;
+}
+
+.impressumtext{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 3em;
+}
+
+.impressumtext li{
+    list-style: none;
+    margin: 10px 0px 0px 0px;
+}
+
+.datenschutz{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.datenschutz li{
+    list-style: none;
+    margin: 10px 0px 0px 0px;
+}
